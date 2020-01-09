@@ -15,4 +15,4 @@ http -f POST http://localhost:8080/albums artist="Newer Artist" genre="Rock" alb
 http -f POST http://localhost:8080/albums artist="A Very New Artist" genre="Rock" album="Revolver3" 
 http -f POST http://localhost:8080/albums artist="Almost Dead Artist" genre="Rock" album="Revolver4" year=1998
 
-А затем находить их по названию альбома в браузере
+А затем находить их по названию альбома в браузере (п. 2)
