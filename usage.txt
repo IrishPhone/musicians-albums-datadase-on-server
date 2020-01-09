@@ -1,0 +1,18 @@
+1. Запуск сервера
+В консоли:
+python3 albums_server.py
+
+2. GET
+В адресной строке браузера:
+localhost:8080/albums/Beatles
+или любой другой исполнитель вместо Beatles, например, New Artist
+
+3. POST
+В другой консоли можно пробовать добавлять новые альбомы, например так (copy/paste):
+
+http -f POST http://localhost:8080/albums artist="New Artist" genre="Rock" album="Revolver" year=1978
+http -f POST http://localhost:8080/albums artist="Newer Artist" genre="Rock" album="Revolver2" year=1979
+http -f POST http://localhost:8080/albums artist="A Very New Artist" genre="Rock" album="Revolver3" 
+http -f POST http://localhost:8080/albums artist="Almost Dead Artist" genre="Rock" album="Revolver4" year=1998
+
+А затем находить их по названию альбома в браузере
